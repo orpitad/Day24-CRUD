@@ -60,7 +60,7 @@ const {username, emailid, mobileNumber, age} = formData;
         .then((data) => data.json())
         .then((data) => setFormData(data));
     }
-  }, []);
+  }, [id]);
 
   return (
     <> 
